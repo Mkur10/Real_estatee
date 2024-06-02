@@ -38,6 +38,7 @@ app.get('*', (req, res) =>{
     res.sendFile(path.join(__dirname, 'dreamheaven', 'dist', 'index.html'));
 })
 
+
 app.use((err,req,res,next) => {
     const statusCode = err.statusCode || 500;
     const message = err.message || 'Internal Server Error';
