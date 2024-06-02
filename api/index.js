@@ -6,8 +6,8 @@ const userRouter= require("./routes/user.routes.js");
 const authRouter = require("./routes/auth.routes.js");
 const cookieParser = require("cookie-parser");
 const listingRouter = require("./routes/listing.routes.js");
-import path from 'path';
-
+// import path from 'path';
+const path= require("path");
 const app = express();
 
 const port = 3000;
