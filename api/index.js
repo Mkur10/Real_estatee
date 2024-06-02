@@ -17,7 +17,7 @@ app.listen(port, ()=>{
     console.log(`${port} is running`)
 });
 
-const __dirname = path.resolve();
+
 app.use(express.json());
 
 app.use(cookieParser());
